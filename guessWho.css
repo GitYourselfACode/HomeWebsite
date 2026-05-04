@@ -1,0 +1,81 @@
+h2 {
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0px;
+}
+.undertitle {
+    text-align: center;
+    font-family: cursive;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0%;
+    padding: 0px;
+    /* line-height: 0px; */
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+p {
+    align-self: flex-start;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 ;
+}
+.container {
+    margin-top: 0%;
+    display: grid;
+    justify-content: center;
+    height: 92vh;
+    width: 98vw;
+}
+.row {
+    margin: 0;
+    height: 23vh;
+    gap: 1vw;
+    display: flex;
+}
+.pic {
+    height: 20vh;
+    width: 11vw;
+    margin: 0;
+}
+.name_but {
+    display: flex;
+    justify-content: space-between;
+
+}
+.container > button {
+    background-color: azure;
+    border-top: none;
+    /* float: right; */
+    justify-self: right;
+    /* align-self: flex-end; */
+}
+
+#player-sel {
+    background-color: rgb(39, 197, 144);
+    border: solid, black(40, 214, 241);
+    color: black;
+}
+
+.flipped-down {
+    text-decoration: line-through;
+}
+
+.home {
+    border: none;
+    border-radius: 16%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: .7%;
+    padding-right: .7%;
+    margin: 0;
+    background-color: #0d6efd;
+    color: whitesmoke;
+    font-size: large;
+}
